@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox minHeight="700" minWidth="200" spacing="20.0" style="-fx-padding: 0; -fx-background-color: #444; -fx-min-height: 700; -fx-min-width: 350;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.phone2.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <children>
+      <VBox alignment="BOTTOM_RIGHT" prefHeight="212.0" prefWidth="350.0" style="-fx-background-color: #FFF; -fx-background-insets: 15px; -fx-padding: 15px;">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <children>
+            <Label alignment="TOP_RIGHT" prefHeight="40.0" style="-fx-pref-width: 100;" text="Label" />
+         </children>
+      </VBox>
+      <VBox prefHeight="407.0" prefWidth="350.0" style="-fx-background-insets: 100px; -fx-padding: 15px;">
+         <children>
+            <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button mnemonicParsing="false" style="-fx-pref-height: 100; -fx-pref-width: 100;" text="----" />
+                  <Button mnemonicParsing="false" style="-fx-pref-height: 100; -fx-pref-width: 100;" text="/\" />
+                  <Button mnemonicParsing="false" style="-fx-pref-height: 100; -fx-pref-width: 100;" text="----" />
+               </children>
+            </HBox>
+            <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button mnemonicParsing="false" style="-fx-pref-height: 100; -fx-pref-width: 100;" text="Accept" />
+                  <Button mnemonicParsing="false" style="-fx-pref-height: 100; -fx-pref-width: 100;" text="\\/" />
+                  <Button mnemonicParsing="false" style="-fx-pref-height: 100; -fx-pref-width: 100;" text="Decline" />
+               </children>
+            </HBox>
+            <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button mnemonicParsing="false" style="-fx-pref-height: 100; -fx-pref-width: 100;" text="1" />
+                  <Button mnemonicParsing="false" style="-fx-pref-height: 100; -fx-pref-width: 100;" text="2" />
+                  <Button mnemonicParsing="false" style="-fx-pref-height: 100; -fx-pref-width: 100;" text="3" />
+               </children>
+            </HBox>
+            <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button mnemonicParsing="false" style="-fx-pref-height: 100; -fx-pref-width: 100;" text="4" />
+                  <Button mnemonicParsing="false" style="-fx-pref-height: 100; -fx-pref-width: 100;" text="5" />
+                  <Button mnemonicParsing="false" style="-fx-pref-height: 100; -fx-pref-width: 100;" text="6" />
+               </children>
+            </HBox>
+            <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button mnemonicParsing="false" style="-fx-pref-height: 100; -fx-pref-width: 100;" text="7" />
+                  <Button mnemonicParsing="false" style="-fx-pref-height: 100; -fx-pref-width: 100;" text="8" />
+                  <Button mnemonicParsing="false" style="-fx-pref-height: 100; -fx-pref-width: 100;" text="9" />
+               </children>
+            </HBox>
+            <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button mnemonicParsing="false" style="-fx-pref-height: 100; -fx-pref-width: 100;" text="*" />
+                  <Button mnemonicParsing="false" style="-fx-pref-height: 100; -fx-pref-width: 100;" text="0" />
+                  <Button mnemonicParsing="false" style="-fx-pref-height: 100; -fx-pref-width: 100;" text="#" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</VBox>
